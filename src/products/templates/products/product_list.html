@@ -1,0 +1,19 @@
+{% extends "base.html" %}
+
+{% block content %}
+
+The time is {{ now }}<br>
+The logged in user is {{ user }}<br>
+<br>
+
+<table class="table">
+{% for object in object_list %}
+<tr>
+<td>
+	<a href='{{ object.get_absolute_url }}'>{{ object.title }}</a>
+</td>
+</tr>
+{% endfor %}
+</table>
+
+{% endblock content %}

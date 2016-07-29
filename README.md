@@ -1,5 +1,12 @@
 ![Try Django 1.8 Logo](https://cfe-static.s3.amazonaws.com/media/try-django-18/images/try_django_18.png)
 
+
+# This has been actually modified to run with:
+Django==1.9.8
+django-crispy-forms==1.6.0
+django-registration-redux==1.4
+
+
 Try Django 1.8 Tutorial Series
 =========
 
